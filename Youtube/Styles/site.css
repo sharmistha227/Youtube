@@ -1,0 +1,87 @@
+﻿body
+{
+    height: 720px;
+    width: 1280px;
+}
+div.tile
+{
+    float: left; /* without this each displays on separate line */
+    height: 230px;
+    width: 180px;
+    text-align: center;
+    background-color: Silver;
+    border-color: #0000ff;
+    border-style: solid;
+    border-width: thin;
+    vertical-align: middle;
+    display:table-cell;
+}
+div.tile img
+{
+    /*display: table-cell; /* what does it do? 
+    margin: 3px;*/
+    border: 1px solid #ffffff;
+    width: 80px;
+    height: 100px;
+    position: relative;
+    top: 25%;
+    vertical-align:middle;
+}
+div.tile a:hover img
+{
+    border: 1px solid #0000ff;
+}
+div.desc
+{
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    top: 25%;
+    height: 75px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position:relative;
+}
+
+#divMain
+{
+    text-align: center;
+}
+
+
+div.enable
+{
+    float: left; /* without this each displays on separate line */
+    height: 230px;
+    width: 180px;
+    text-align: center;
+    border-color: Red;
+    border-style: solid;
+    border-width: thin;
+    vertical-align: middle;
+    display:table-cell;
+}
+
+div.enable img
+{
+    /*display: inline; /* what does it do? 
+    margin: 3px;*/
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 120px;
+    position: relative;
+    top: 25%;
+    vertical-align:middle;
+}
+div.enable a:hover img
+{
+    border: 1px solid #0000ff;
+}
+
+.disable
+{
+    /* border-color: #0000ff;*/
+    border-style: solid;
+    border-width: thin;
+}
